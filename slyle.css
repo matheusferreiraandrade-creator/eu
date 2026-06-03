@@ -12,18 +12,18 @@ body{
         width: 100%;
         padding: 20px;
 }
-.cabecalho-itens{
+.cabecalho-itens {
     max-width: 1980px;
     margin: 0 auto;
+    padding: 10px 40px; /* Dá um espaço nas laterais da tela */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Empurra o logo para a esquerda, título pro meio e redes para a direita */
 }
-.cabecalho-imagem{
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+.cabecalho_imagem {
+    max-width: 120px; /* Limita o tamanho máximo do logo da esquerda */
+    height: auto; /* Mantém a proporção da imagem sem distorcer */
 }
 .titulo_site{
     padding: 50px;
